@@ -4,6 +4,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ## Table of contents
 
+- Tip Calculator explained
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
@@ -12,6 +13,9 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
+
+
+## The Tip Calculator calculates tip amount for various percentages of the cost of the service, and also provides a total amount that includes the tip. In the U.S., a tip of 15% of the before tax meal price is typically expected. To know more about the tip calculator and how it works please visit (https://www.calculator.net/tip-calculator.html)
 
 
 ## Overview
