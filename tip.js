@@ -85,8 +85,8 @@ reset.on("click", function () {
 
 
 function calculator() {
-  tipPerPersonValue = (Math.round(((billValue * percentageNumber) / 100) / noOfPeopleValue)).toFixed(2);
-  totalPerPersonValue = (Math.round((billValue / noOfPeopleValue) + (((billValue * percentageNumber) / 100) / noOfPeopleValue))).toFixed(2);
+  tipPerPersonValue = (((billValue * percentageNumber) / 100) / noOfPeopleValue).toFixed(2);
+  totalPerPersonValue = ((billValue / noOfPeopleValue) + (((billValue * percentageNumber) / 100) / noOfPeopleValue)).toFixed(2);
   output();
 }
 
